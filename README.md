@@ -1,5 +1,7 @@
 # Expense Tracker CLI
 
+https://roadmap.sh/projects/expense-tracker
+
 A simple command-line expense tracker application built with TypeScript and Node.js.
 
 ## Features
