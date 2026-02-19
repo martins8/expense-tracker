@@ -10,7 +10,9 @@
     "build": "tsc",
     "prepare": "npm run build",
     "start": "tsx ./index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "clean:build": "npm run clean && npm run build"
   },
   "bin": {
     "expense-tracker": "./dist/index.js"
